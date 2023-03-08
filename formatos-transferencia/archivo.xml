@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE body [
+    <!ENTITY warning "Advertencia: Algo malo pasó... porfavor intente de nuevo.">
+]>
+<body>
+    <message> &warning; </message>
+    <message>
+        <warning>
+             Hola, mundo
+        </warning>
+    </message>
+</body>
+
+
+
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
