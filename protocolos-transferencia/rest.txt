@@ -15,7 +15,7 @@ en este caso de un servicio en el cual nosotros vamos a almacenar nuestra lógic
 recursos URL y una serie de datos que nosotros los limitaremos, es decir, será nuestro BACKEND nuestra lógica pura de negocios que nosotros 
 vamos a utilizar.
 
-EST es la contrapartida a SOAP, a mi modesto entender es mucho mejor y más sencillo y versátil.
+REST es la contrapartida a SOAP, a mi modesto entender es mucho mejor y más sencillo y versátil.
 
 Las peticiones que le hacemos al servidor son clasificadas mediante lo conocido como verbos HTTP y pueden ser:
 GET
