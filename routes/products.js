@@ -3,10 +3,17 @@ const faker = require('faker');
 
 const router = express.Router();
 
+//Ruta POST productos
+router.post('/',(req,res)=>{
+  const body = req.body
+  res.json({
+    ok:true,
+    data:body
+  })
+})
 
 
-
-//Ruta productos estableciendo condiciones
+//Ruta GET productos estableciendo condiciones
 router.get('/',(req, res)=>{
   const productos = []
   const {tamano}= req.query
@@ -21,7 +28,7 @@ router.get('/',(req, res)=>{
   res.json(productos)
 })
 
-//Ruta productos con parametros
+//Ruta GET productos con parametros
 router.get('/:id',(req, res)=>{
   const {id}=req.params
   res.json({

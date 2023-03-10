@@ -19,3 +19,5 @@ esto permitirá lanzar el servicio con el comando npm run dev
 donde ? le dice al endpoint que recibirá parametros en este caso limit y offset acompañados de su debido valor, por ende & es un concatenador de parametros.
 13-podemos probar los endpoints con info falsa de una librería llamada faker@5.5.3 instalandose mediante npm i faker@5.5.3 -S
 14-Refactorizando el código aportando orden y una mejor estructura creando rutas servicios
+15-implementar la práctica de versionamiento instanciando express dentro de el index de server
+16-implementar un middleware para los métodos subsiguientes POST,PUT,PATCH,DELETE
